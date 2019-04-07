@@ -1,0 +1,148 @@
+tab-header.active, tab-body {
+  background-color: #1c1e26 !important;
+}
+
+div.tab-bar {
+  background-color: #1c1e2666 !important;
+}
+
+body {
+  font-family: "Google Sans" !important; /*Will get hosted*/
+  border-radius: 4px !important;
+}
+
+.nav-link.active {
+  color: #f43e5c !important;
+  background-color: #1c1e26 !important;
+}
+
+.nav-link {
+  color: #6c6f93 !important;
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: #f43e5c !important;
+  transition: 0s;
+}
+
+tab-body .btn {
+  background-color: #15161c !important;
+  border: 0;
+  color: #6c6f93;
+}
+
+tab-body .btn.active, select.form-control {
+  background-color: #15161c !important;
+  border: 0;
+  color: #f43e5c !important;
+}
+
+input.form-control {
+  background-color: #15161c !important;
+  border: 0;
+}
+
+div.bg-primary {
+  background-color: #fff3 !important;
+}
+
+div.body {
+  border: 2px solid #15161c !important;
+}
+div.toggle {
+  background-color: #15161c !important;
+}
+
+i.fa {
+  color: #f43e5c !important;
+}
+
+div.item {
+  background-color: #15161c !important;
+  border: 0 !important;
+}
+
+div.input-group-text, textarea, form.group-input{
+  background-color: #15161c !important;
+}
+
+div.alert {
+  background-color: #15161c !important;
+  border: 0 !important;
+}
+
+div.mr-auto {
+  color: #ccc !important;
+}
+
+button.btn-outline-warning:hover {
+  color: #f43e5c !important;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background: #f43e5c !important;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #15161c !important;
+}
+
+multi-hotkey-input div.item div.body:hover, multi-hotkey-input div.item div.remove:hover {
+  background-color: #0000 !important;
+  cursor: pointer !important;
+}
+multi-hotkey-input div.item div.body {
+  border: 0px solid #0000 !important;
+}
+multi-hotkey-input div.add {
+  background-color: #0000 !important;
+  color: #f43e5c !important;
+  cursor: pointer !important;
+}
+
+start-page {
+  background-color: #15161c66 !important;
+}
+start-page .btn {
+  background-color: #15161c !important;
+  border: 0;
+  color: #6c6f93;
+}
+
+start-page .btn.active {
+  background-color: #15161c !important;
+  border: 0;
+  color: #f43e5c !important;
+}
+
+
+app-root > .content div.tab-bar .btn-tab-bar:hover {
+  background-color: #0000 !important;
+}
+
+app-root > .content div.tab-bar .btn-tab-bar svg {
+  transition: .1s;
+}
+
+app-root > .content div.tab-bar .btn-tab-bar:hover svg {
+  fill: #f43e5c !important;
+}
+
+window-controls button.btn {
+  background-color: #0000 !important;
+}
+
+window-controls button.btn.btn-close:hover svg {
+  fill: #f43e5c !important;
+}
+
+app-root > .content .tab-bar > div.tabs tab-header button:hover {
+  background: #0000 !important;
+  color: #f43e5c !important;
+  cursor: pointer !important;
+}
+
+select.form-control {
+  cursor: pointer;
+}
