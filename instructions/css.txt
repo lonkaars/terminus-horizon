@@ -198,11 +198,13 @@ select.form-control {
 /* popup window */
 div.modal-content {
   border: 0 !important;
+  background-color: #0000 !important;
 }
 
 div.modal-body {
   background-color: #15161c !important;
   border: 0 !important;
+  border-radius: 10px !important;
 }
 
 div.modal-body a.list-group-item {
@@ -262,6 +264,6 @@ div.form-line textarea.form-control {
   transition: .5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-div.form-line textarea.form-control:hover {
+div.form-line textarea.form-control:focus {
   height: 600px;
 }
