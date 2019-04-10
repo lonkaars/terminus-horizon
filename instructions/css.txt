@@ -205,7 +205,7 @@ div.modal-body {
   border: 0 !important;
 }
 
-a.list-group-item {
+div.modal-body a.list-group-item {
   background-color: #1c1e26 !important;
   border: 0 !important;
   color: #6c6f93 !important;
@@ -213,7 +213,55 @@ a.list-group-item {
   transition: .5s;
 }
 
-a.list-group-item:hover {
+div.modal-body a.list-group-item:hover {
   color: #f43e5c !important;
   transition: 0s;
+}
+
+:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
+start-page div.list-group a.list-group-item {
+  background-color: #0000 !important;
+  border: 0 !important;
+  cursor: pointer;
+  color: #fffa !important;
+  transition: .5s;
+}
+
+start-page div.list-group a.list-group-item:hover {
+  color: #f43e5c !important;
+  transition: 0s;
+}
+
+start-page div.list-group a.list-group-item div svg {
+  fill: #fffa !important;
+  transition: .5s;
+}
+
+start-page div.list-group a.list-group-item:hover div svg {
+  fill: #f43e5c !important;
+  transition: 0s;
+}
+
+start-page .terminus-title, start-page .terminus-logo {
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+}
+
+footer {
+  background-color: #0000 !important;
+}
+
+div.form-line textarea.form-control {
+  width: 70%;
+  height: 120px;
+  transition: .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+div.form-line textarea.form-control:hover {
+  height: 600px;
 }
