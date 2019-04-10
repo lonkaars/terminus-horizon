@@ -124,3 +124,23 @@ h6 {
 video {
     box-shadow: 0px 30px 40px -5px var(--black-1-50);
 }
+
+@media screen and (max-width: 950px) {
+    video {
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    .h1D {
+        font-size: 9vw !important;
+    }
+
+    .h2D {
+        font-size: 5vw !important;
+    }
+
+    .pageHeader .h2D {
+        margin-top: -1vw !important;
+        font-size: 3vw !important;
+    }
+}

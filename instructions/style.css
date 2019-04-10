@@ -20,6 +20,7 @@ body {
     background-color: var(--yellow);
 }
 
+
 h1,
 h2,
 h3,
@@ -56,6 +57,7 @@ h6 {
     color: var(--black-2);
     margin: 0;
 }
+
 .substep {
     font-size: 16pt;
     font-family: 'Google Sans', sans-serif;
@@ -105,6 +107,7 @@ h6 {
     box-shadow: 0px 30px 30px -10px var(--black-1-50);
     transition: .3s;
     opacity: 0;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -139,11 +142,11 @@ h6 {
 }
 
 #toast {
-    margin-left: 50px;
+    margin: 0 0 20px 20px;
     background-color: var(--black-2);
     color: var(--green);
     text-align: left;
-    border-radius: 10px 10px 0 0;
+    border-radius: 7.5px;
     padding: 16px 32px;
     position: fixed;
     z-index: 1;
@@ -151,9 +154,19 @@ h6 {
     font-family: 'Google Sans Bold', sans-serif;
     font-size: 16pt;
     opacity: 0;
-    box-shadow: 3px 3px 40px 5px var(--black-1);
+    box-shadow: 3px 3px 40px 5px var(--black-1-50);
 }
 
 .image {
     box-shadow: 0px 30px 40px -5px var(--black-1-50);
+}
+
+@media screen and (max-width: 950px) {
+    img {
+        max-width: 100% !important;
+    }
+
+    .h1D {
+        font-size: 9vw !important;
+    }
 }

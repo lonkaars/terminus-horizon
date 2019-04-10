@@ -5,7 +5,7 @@ $(() => {
         targets: '.gradientTopBar',
         width: [0, '100%'],
         duration: 1500,
-        delay: 100,
+        delay: 600,
         autoplay: true,
         easing: 'easeInOutExpo'
     })
@@ -13,7 +13,7 @@ $(() => {
         targets: 'a',
         opacity: [0 , 1],
         duration: 100,
-        delay: 1200,
+        delay: 1800,
         autoplay: true,
         easing: 'easeInOutExpo'
     })
@@ -21,7 +21,7 @@ $(() => {
         targets: '.content *:not(a, #toast)',
         translateY: ['-40px', 0],
         duration: 1000,
-        delay: anime.stagger(50, {start: 500}),
+        delay: anime.stagger(50, {start: 1100}),
         autoplay: true,
         opacity: [0, 1],
         easing: 'easeOutExpo',
