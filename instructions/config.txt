@@ -1,11 +1,11 @@
 terminal:
-  colorScheme: &ref_0
+  colorScheme:
     name: Horizon
     foreground: '#d7dae0'
     background: '#1c1e26'
     cursor: '#d7dae0'
     colors:
-      - '#252833'
+      - '#2e303e'
       - '#e95678'
       - '#29d398'
       - '#fab795'
@@ -13,7 +13,7 @@ terminal:
       - '#ee64ac'
       - '#59e1e3'
       - '#d7dae0'
-      - '#333744'
+      - '#2e303e'
       - '#e95678'
       - '#29d398'
       - '#fab795'

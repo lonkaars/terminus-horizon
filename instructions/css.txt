@@ -74,10 +74,17 @@ body {
   transition: 0s;
 }
 
-tab-body .btn {
+tab-body .btn, hotkey-input-modal .btn {
   background-color: #15161c !important;
-  border: 0;
-  color: #6c6f93;
+  border: 0 !important;
+  color: #6c6f93 !important;
+}
+
+hotkey-input-modal .btn {
+  color: #f43e5c !important;
+}
+hotkey-input-modal .btn:hover {
+  color: #fff !important;
 }
 
 tab-body .btn.active, select.form-control {
@@ -266,4 +273,26 @@ div.form-line textarea.form-control {
 
 div.form-line textarea.form-control:focus {
   height: 600px;
+}
+
+hotkey-input-modal {
+  background-color: #15161c !important;
+  border-radius: 15px !important;
+}
+
+hotkey-input-modal .timeout, hotkey-input-modal div.modal-body .input {
+  background: #0000 !important;
+}
+
+hotkey-input-modal div.modal-body .input div {
+  background: #f43e5c44 !important;
+  border: 2px solid #f43e5c !important
+}
+
+hotkey-input-modal .modal-footer {
+  background: #0000 !important;
+}
+
+hotkey-input-modal .timeout div {
+  background: #f43e5c !important;
 }
