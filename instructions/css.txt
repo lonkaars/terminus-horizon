@@ -194,3 +194,26 @@ app-root > .content .tab-bar > div.tabs tab-header button:hover {
 select.form-control {
   cursor: pointer;
 }
+
+/* popup window */
+div.modal-content {
+  border: 0 !important;
+}
+
+div.modal-body {
+  background-color: #15161c !important;
+  border: 0 !important;
+}
+
+a.list-group-item {
+  background-color: #1c1e26 !important;
+  border: 0 !important;
+  color: #6c6f93 !important;
+  cursor: pointer;
+  transition: .5s;
+}
+
+a.list-group-item:hover {
+  color: #f43e5c !important;
+  transition: 0s;
+}
